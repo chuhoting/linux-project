@@ -188,7 +188,7 @@ host    all             all             ::1/128                 md5
 
 * Change to PostgreSQL default user postgres using ```sudo su - postgres```
 
-* Connect to PostgreSQL using ```psql``
+* Connect to PostgreSQL using ```psql```
 
 * Create user catalog with the password as 'password' using ```# CREATE ROLE catalog WITH PASSWORD 'password';```
 
