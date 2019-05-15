@@ -271,7 +271,7 @@ host    all             all             ::1/128                 md5
 * Add the following to the file:
 ```
    <VirtualHost *:80>
-		ServerName 13.250.107.163
+		ServerName 18.138.251.117
 		ServerAdmin test@admin.com
 		WSGIScriptAlias / /var/www/catalog/catalog.wsgi
 		<Directory /var/www/catalog/catalog/>
@@ -335,3 +335,10 @@ sudo python lotsofsportsitems_users.py
 ---
 
 Accessing http://18.138.251.117 the application should be live. If there are internal errors, check the Apache error file e.g. run ```sudo tail -100 /var/log/apache2/error.log``` and resolve the traceback call errors it displays.
+
+---
+## List of 3rd Party Resources
+
+* https://github.com/juvers/Linux-Configuration
+* https://github.com/yiyupan/Linux-Server-Configuration-Udacity-Full-Stack-Nanodegree-Project
+* https://github.com/boisalai/udacity-linux-server-configuration
